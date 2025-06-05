@@ -38,7 +38,7 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "Gain control over [All] tiles in a [1]-tile radius<once>"],
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "Gain control over [All] tiles in a [0]-tile radius<once>"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
