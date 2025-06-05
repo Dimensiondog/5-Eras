@@ -38,7 +38,7 @@
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -52,6 +52,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
+		"uniques" : ["Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Swordsman",
@@ -65,6 +66,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
+		"uniques" : ["Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"obsoleteTech": "Metal Casting",
 		"promotions": ["[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Swordsman",
@@ -78,6 +80,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 20,
+		"uniques" : ["Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
@@ -283,7 +286,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -297,7 +300,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -311,7 +314,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"promotions":["[Persian Immortal] ability"],
 		"attackSound": "metalhit"
 	},
@@ -327,7 +330,7 @@
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
-		"[-1] Sight", "Can only attack [City] units"],
+		"[-1] Sight", "Can only attack [City] units","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
@@ -342,7 +345,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"promotions": ["Pictish Courage"],
 		"attackSound": "metalhit"
 	},
@@ -357,7 +360,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"attackSound": "metalhit"
 	},
 
@@ -479,6 +482,7 @@
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -495,7 +499,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -511,7 +515,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-		"promotions": ["[Mohawk Warrior] ability"],
+		"promotions": ["[Mohawk Warrior] ability","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"attackSound": "metalhit"
 	},
 
@@ -523,7 +527,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -537,7 +541,7 @@
 		"strength": 16,
 		"cost": 45,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought","Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -731,6 +735,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
@@ -747,6 +752,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"promotions": ["Shock I", "Great Generals II"],
 		"attackSound": "metalhit"
 		//Samurai should also create Fishing Boats (not now, surely)
@@ -763,6 +769,7 @@
 		"upgradesTo": "Musketman",
 		"obsoleteTech": "Metallurgy",
 		"requiredResource": "Iron",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"promotions": ["Amphibious"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -807,6 +814,7 @@
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
 	},
@@ -820,6 +828,7 @@
 		"cost": 150,
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
 	},
@@ -834,6 +843,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"promotions": ["[Janissary] ability"],
 		"attackSound": "shot"
 	},
@@ -848,7 +858,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["Ignores terrain cost"],
+		"uniques": ["Ignores terrain cost","Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"promotions": ["Drill I"],
 		"attackSound": "shot"
 	},
@@ -863,7 +873,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
 		"obsoleteTech": "Rifling",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"attackSound": "shot"
 	},
 	{
@@ -1005,6 +1015,7 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
 	},
@@ -1019,6 +1030,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"promotions": ["[Norwegian Ski Infantry] ability"],
 		"attackSound": "shot"
 	},
@@ -1032,6 +1044,7 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"upgradesTo": "Great War Infantry",
 		"promotions": ["March"],
 		"attackSound": "shot"
@@ -1047,6 +1060,7 @@
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
 		"upgradesTo": "Great War Infantry",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"promotions": ["Drill I","Home Sweet Home"],
 		"attackSound": "shot"
 	},
@@ -1147,6 +1161,7 @@
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"obsoleteTech": "Plastics",
 		"attackSound": "shot"
 	},
@@ -1161,7 +1176,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"attackSound": "shot"
 	},
 	{
@@ -1202,6 +1217,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Mechanized Infantry",
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>" ],
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
@@ -1291,7 +1307,7 @@
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"attackSound": "shot"
 	},
 	{
@@ -1362,7 +1378,7 @@
 		"strength": 65,
 		"cost": 375,
 		"requiredTech": "Radar",
-		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+		"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"attackSound": "shot"
 		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
@@ -1508,7 +1524,7 @@
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit","Gain control over [All] tiles in a [1]-tile radius<once>"],
 		"attackSound": "tankshot"
 	},
 	{
