@@ -515,7 +515,8 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Gunpowder",
 		"hurryCostModifier": 20,
-		"promotions": ["[Mohawk Warrior] ability","Gain control over [All] tiles in a [1]-tile radius<once>"],
+		"uniques": ["Gain control over [All] tiles in a [1]-tile radius<once>"],
+		"promotions": ["[Mohawk Warrior] ability"],
 		"attackSound": "metalhit"
 	},
 
