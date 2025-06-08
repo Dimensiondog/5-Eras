@@ -9,7 +9,10 @@
         "row": 0,
         "column": 0
     },
-
+	{
+		"name": "Plus Three",
+		"uniques": ["[+3] population [in this city] <in [City center] tiles> <upon founding a city>", "Will not be displayed in Civilopedia"]
+	}
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
