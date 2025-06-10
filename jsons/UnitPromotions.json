@@ -12,7 +12,11 @@
 	{
 		"name": "Plus Three",
 		"uniques": ["[+3] population [in this city] <in [City center] tiles> <upon founding a city>", "Will not be displayed in Civilopedia"]
-	}
+	},
+	{
+		"name": "Imperialist",
+		"uniques": ["[+20]% Strength","[-20]% Strength decreasing with distance from the capital"]
+	},
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
