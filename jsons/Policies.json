@@ -448,6 +448,63 @@
             }
         ]
     },
+   {
+        "name": "Feudalism",
+        "era": "Medieval era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": ["[+2 Food, +2 Production, +1 Faith] [in all cities connected to capital]"],
+        "policies": [
+            {
+                "name": "Serfdom",
+                "uniques": [
+                    "[+1 Food] from [Farm] tiles [in all cities]",
+                    "[+1 Production] from [Pasture] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Nobility",
+                "uniques": [
+                    "[+1 Happiness, +2 Culture] from every [Castle]",
+                    "[+1 Gold] from every [Armory]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Clergy",
+                "uniques": [
+                "[+1 Faith, +1 Culture, +1 Gold] from every [Temple]",
+                "[+1 Faith, +1 Culture, +1 Gold] from every [Worship]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Fiefs",
+                "uniques": [
+                    "[+20]% Production when constructing [Melee] units [in all cities]",
+                    "[+10]% City Strength from defensive buildings"
+                ],
+                "requires": ["Serfdom","Nobility"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Commerce Complete",
+                "uniques": [
+                    "[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities]"
+                ]
+            }
+        ]
+    },
     {
         "name": "Commerce",
         "era": "Medieval era",
@@ -651,7 +708,66 @@
             }
         ]
     },
-
+    {
+        "name": "Imperialism",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+2 Production] from [Strategic] tiles [in all cities] <on foreign continents>",
+            "[+2 Gold] from [Luxury] tiles [in all cities] <on foreign continents>",
+        ],
+        "policies": [
+            {
+                "name": "Settler Colonies",
+                "uniques": [
+					"[Settler] units gain the [Plus Three] promotion <hidden from users>",
+					"Comment [Cities start with Three extra population when founded]",
+                    "Can build [Land] improvements at a [+20]% rate <on foreign continents>"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Raj",
+                "uniques": [
+                    "May buy items in puppet cities",
+                    "[-40]% Unhappiness from [Population] [in puppeted cities]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Dominions",
+                "uniques": [
+                    "City-State territory always counts as friendly territory",
+                    "[-20]% City-State Influence degradation",
+                    "Militaristic City-States grant units [1.5] times as fast when you are at war with a common nation"
+                ],
+                "row": 2,
+                "column": 3
+                "requires": ["Raj","Settler Colonies"],
+            },
+            {
+                "name": "Foreign Legion",
+                "uniques": ["Military Units gifted from City-States start with [30] XP","[+10]% Strength<on foreign continents>"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Imperialism Complete",
+                "uniques": [
+                    "Quantity of strategic resources produced by the empire +[+50]%",
+                    "All newly-trained [Land] units [in all cities] receive the [Imperialist] promotion"
+                ]
+            }
+        ]
+    },
     {
         "name": "Freedom",
         "era": "Industrial era",
