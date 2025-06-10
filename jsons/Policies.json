@@ -498,7 +498,7 @@
                 "column": 2
             },
             {
-                "name": "Commerce Complete",
+                "name": "Feudalism Complete",
                 "uniques": [
                     "[-10]% Unhappiness from [Followers of the Majority Religion] [in all cities]"
                 ]
@@ -658,7 +658,7 @@
             "[+1] Sight <for [Water] units>",
             "[+1] Movement <for [Embarked] units>",
             "[+1] Sight <for [Embarked] units>",
-            "[+30]% Production when constructing [Civillian] units [in all cities]",
+            "[+30]% Production when constructing [Civilian] units [in all cities]",
             "Only available <before adopting [Piety]>"
         ],
         "policies": [
@@ -719,8 +719,8 @@
             "Scientific": 10
         },
         "uniques": [
-            "[+2 Production] from [Strategic] tiles [in all cities] <on foreign continents>",
-            "[+2 Gold] from [Luxury] tiles [in all cities] <on foreign continents>",
+            "[+2 Production] from [Strategic resource] tiles [in all cities] <on foreign continents>",
+            "[+2 Gold] from [Luxury resource] tiles [in all cities] <on foreign continents>",
         ],
         "policies": [
             {
@@ -728,7 +728,7 @@
                 "uniques": [
 					"[Settler] units gain the [Plus Three] promotion <hidden from users>",
 					"Comment [Cities start with Three extra population when founded]",
-                    "Can build [Land] improvements at a [+20]% rate <on foreign continents>"
+                    "Can build [All] improvements at a [+20]% rate <on foreign continents>"
                 ],
                 "row": 1,
                 "column": 1
@@ -747,7 +747,7 @@
                 "uniques": [
                     "City-State territory always counts as friendly territory",
                     "[-20]% City-State Influence degradation",
-                    "Militaristic City-States grant units [1.5] times as fast when you are at war with a common nation"
+                    "Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
                 ],
                 "row": 2,
                 "column": 3
