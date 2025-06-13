@@ -39,7 +39,7 @@
 		"strength": 14,
 		"cost": 40,
 		"uniques" : ["Gain control over [Enemy Land] tiles in a [0]-tile radius<once>"],
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Steel",
 		"promotions": ["Haka War Dance"],
 		"upgradesTo": "Longswordsman",
 		"attackSound": "nonmetalhit"
@@ -53,7 +53,7 @@
 		"strength": 14,
 		"cost": 40,
 		"uniques" : ["Gain control over [Enemy Land] tiles in a [0]-tile radius<once>"],
-		"obsoleteTech": "Metal Casting",
+		"obsoleteTech": "Steel",
 		"promotions": ["[Jaguar] ability","Woodsman"],
 		"upgradesTo": "Longswordsman",
 		"attackSound": "nonmetalhit"
@@ -77,19 +77,6 @@
 		"rangedStrength": 7,
 		"cost": 40,
 		"obsoleteTech": "Militarism",
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Bowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 9,
-		"cost": 40,
-		"obsoleteTech": "Militarism",
-		"replaces": "Archer",
-		"uniqueTo": "Babylon",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
