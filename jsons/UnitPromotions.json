@@ -17,6 +17,10 @@
 		"name": "Imperialist",
 		"uniques": ["[+20]% Strength","[-20]% Strength decreasing with distance from the capital"]
 	},
+	{
+		"name": "Nomad Warriors",
+		"uniques": ["Ignores Zone of Control","[+1] Movement"]
+	},
 	// Ranged+Siege
 	{
 		"name": "Accuracy I",
