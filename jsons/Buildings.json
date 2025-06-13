@@ -32,23 +32,11 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"] //"Only available <when religion is enabled>"
 	},
-	// Column 1
-	{
-		"name": "Granary",
-		"food": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Pottery"
-	},
 	{
 		"name": "Shrine",
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
@@ -59,7 +47,6 @@
 		"science": 2,
 		"cost": 40,
 		"maintenance": 1,
-		"requiredTech": "Pottery",
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
@@ -69,30 +56,10 @@
 		"greatPersonPoints": {"Great Engineer": 1},
         "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in this city]",
             "[+15]% Production when constructing [Ranged Gunpowder] units [in this city]"],
-		"requiredTech": "Archery",
+		"requiredTech": "Militarism",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
 	},
 	// Column 2
-	{
-		"name": "Stone Works",
-		"happiness": 1,
-		"production": 1,
-		"requiredNearbyImprovedResources": ["Marble", "Stone"],
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
-			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Calendar"
-	},
-	{
-		"name": "Stonehenge",
-		"faith": 5,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"requiredTech": "Calendar",
-		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
-	},
 	{
 		"name": "Library",
 		"hurryCostModifier": 25,
@@ -124,7 +91,7 @@
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
-		"requiredTech": "Trapping"
+		"requiredTech": "Guilds"
 	},
 	{
 		"name": "Water Mill",
@@ -133,7 +100,16 @@
 		"production": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
-		"requiredTech": "The Wheel"
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Bath",
+		"maintenance": 2,
+		"culture": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [Fresh Water]","[+2 Gold, +1 Culture, +1 Happiness]<during a Golden Age>"],
+		"requiredTech": "Irrigation"
 	},
 	{
 		"name": "Floating Gardens",
@@ -145,14 +121,14 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"percentStatBonus": {"food": 15},
-		"requiredTech": "The Wheel"
+		"requiredTech": "Engineering "
 	},
 	{
 		"name": "Walls",
 		"cityStrength": 5,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
+		"requiredTech": "Civil Defence",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -163,17 +139,8 @@
 		"cityStrength": 6,
 		"cityHealth": 100,
 		"hurryCostModifier": 25,
-		"requiredTech": "Masonry",
+		"requiredTech": "Civil Defence",
 		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "The Pyramids",
-		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["Can build [all] improvements at a [+25]% rate","[2] free [Worker] units appear"],
-		"requiredTech": "Masonry",
-		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
 	{
 		"name": "Mausoleum of Halicarnassus",
@@ -182,7 +149,7 @@
 		"isWonder": true,
 		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
-		"requiredTech": "Masonry",
+		"requiredTech": "Currency",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
 	{
@@ -190,7 +157,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Civil Defence"
 	},
 	{
 		"name": "Krepost",
@@ -200,14 +167,14 @@
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
 			"New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
+		"requiredTech": "Civil Defence"
 	},
 	{
 		"name": "Statue of Zeus",
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
-		"requiredTech": "Bronze Working",
+		"requiredTech": "Concrete",
 		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
 		// "Requires [Honor]" in BNW
 	},
@@ -261,7 +228,7 @@
 		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>"],
-		"requiredTech": "Mathematics"
+		"requiredTech": "Diplomacy"
 	},
 	{
 		"name": "Hanging Gardens",
@@ -269,7 +236,7 @@
 		"food": 6,
 		"culture": 1,
 		"isWonder": true,
-		"requiredTech": "Mathematics",
+		"requiredTech": "Irrigation",
 		"uniques": ["Gain a free [Garden] [in this city]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
@@ -285,7 +252,7 @@
 		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"requiredTech": "Construction",
+		"requiredTech": "Militarism",
 		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
 	},
 	// Column 4
@@ -381,10 +348,19 @@
 	{
 		"name": "Mint",
 		"maintenance": 0,
+		"gold": 1,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
 		"requiredTech": "Currency"
+	},
+	{
+		"name": "Forge",
+		"maintenance": 0,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Iron] tiles [in this city]","[+10]% [Production] [in this city]"],
+		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Petra",
@@ -419,7 +395,7 @@
 		"isNationalWonder": true,
 		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
 			"Cost increases by [30] per owned city"],
-		"requiredTech": "Iron Working"
+		"requiredTech": "Militarism"
 	},
 	{
 		"name": "Colossus",
