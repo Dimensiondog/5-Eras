@@ -268,6 +268,54 @@
         ]
     },
     {
+        "name": "Horde",
+        "era": "Classical era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "When conquering an encampment, earn [30] Gold and recruit a Barbarian unit"
+        ],
+        "policies": [
+            {
+                "name": "Pastoralism",
+                "uniques": [
+                    "[+1 Food, +1 Production] from [Pasture] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Raid",
+                "uniques": [
+                    "[+20]% Health from pillaging tiles",
+		    "[+50]% Yield from pillaging tiles"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Nomad Warriors",
+                "uniques": [
+                    "[Mounted] units gain the [Nomad Warriors] promotion"
+                ],
+                "requires": ["Pastoralism","Raid"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Horde Complete",
+                "uniques": [
+                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                ]
+            }
+        ]
+    },
+    {
         "name": "Piety",
         "era": "Classical era",
         "priorities": {
