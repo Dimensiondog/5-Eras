@@ -6,40 +6,6 @@
 		"outerColor": [255,255,255]
 //		"innerColor": [255,255,255]
 	},
-
-	{
-		//nations
-		"name": "Babylon",
-		"leaderName": "Nebuchadnezzar II",
-		"adjective": ["Babylonian"],
-		"startBias": ["Avoid [Tundra]"],
-		"preferredVictoryType": "Scientific",
-		"personality": "Nebuchadnezzar II",
-
-		"startIntroPart1": "May the gods bless you, great Nebuchadnezzar, ruler of ancient Babylon! Built 5000 years ago, Babylon emerged as an empire in 1800 BC, thanks to godlike Hammurabi, The Giver of Law. Falling under the Kassites assaults then the Assyrian domination, Babylon was reborn from its ashes, gaining back its independance, and became the beacon for Arts and Learning in the ancient world. O Nebuchadnezzar, after your death, Babylon quickly fell, conquered by the mighty Persians, and then by the Greeks, until the great city disappeared forever in 141 BC.",
-		"startIntroPart2": "Great Nebuchadnezzar, Babylon's glory still lives through you and your people. Will you create a spark to enlighten the world again? Will your new empire shine through the ages of history?",
-
-		"declaringWar": "The demon wants the blood of soldiers!",
-		"attacked": "Oh well, I presume you know what you're doing.",
-		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Are you real or a phantom?",
-
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-
-		"outerColor": [27,53,63],
-		"innerColor": [213,249,255],
-		"favoredReligion": "Islam",
-		"uniqueName": "Ingenuity",
-		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing] technology>", "[Great Scientist] is earned [50]% faster"],
-		"cities": ["Babylon","Akkad","Dur-Kurigalzu","Nippur","Borsippa","Sippar","Opis","Mari","Shushan","Eshnunna",
-			"Ellasar","Erech","Kutha","Sirpurla","Neribtum","Ashur","Ninveh","Nimrud","Arbela","Nuzi",
-			"Arrapkha","Tutub","Shaduppum","Rapiqum","Mashkan Shapir","Tuttul","Ramad","Ana","Haradum","Agrab",
-			"Uqair","Gubba","Hafriyat","Nagar","Shubat Enlil","Urhai","Urkesh","Awan","Riblah","Tayma"],
-        "spyNames": ["Rim-Sin II", "Smerdis", "Ilum-ma-ili", "Peshgaldaramesh", "Ur-zigurumaš", "Semiramis", "Em", "Ishtar", "Bilit Taauth", "Aruru"]
-	},
     {
 		"name": "Greece",
 		"leaderName": "Alexander",
@@ -797,35 +763,6 @@
 			"Fredrikstad","Kolding","Horsens","Tromsoe","Vejle","Koge","Sandnes","Holstebro","Slagelse","Drammen",
 			"Hillerod","Sonderborg","Skien","Svendborg","Holbaek","Hjorring","Fladstrand","Haderslev","Ringsted","Skrive"],
         "spyNames": ["Jørgen", "Mette", "Henrik", "Niels", "Helle", "Frederik", "Ida", "Thea", "Freja", "Morten"]
-    },
-	{
-		"name": "The Huns",
-		"leaderName": "Attila the Hun",
-		"adjective": ["Hunnic"],
-		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
-		"preferredVictoryType": "Domination",
-		"personality": "Attila the Hun",
-
-        "startIntroPart1": "Great Attila, mighty warrior and leader of the Hunnic empire, your men bow down before you. During the 5th century, you and your brother Bleda have conquered many lands, forged a mighty empire and commanded the most powerful and frightening force of antiquity. You inspired fear to the Roman Emperors themselves, who called you 'Flagellum Dei', the 'Scourge of God', as you took kingdom after kingdom in the Balkans, invaded Eastern Roman Empire, into Gaul and Northern Italy, and planned to conquer Rome itself. Your empire didn't survive long after your death, but your name and your legend have, for millenia to come.",
-        "startIntroPart2": "Fearsome General, your mighty hordes are at your command, waiting to crush your foes once again and to conquer all the riches the world has to offer! Will your new empire shine through the ages of history?",
-
-        "declaringWar": "I grow tired of this throne. I think I should like to have yours instead.",
-		"defeated": "My people will mourn me not with tears, but with human blood.",
-		"denounced": "Do you know who you're dealing with?",
-		"attacked": "Now what is this?! You ask me to add your riches to my great avails. The invitation is accepted.",
-		"introduction": "You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.",
-		"neutralHello": "Good day to you.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "This is better than you deserve, but let it not be said that I am an unfair man.",
-
-        "outerColor": [180, 178, 164],
-        "innerColor": [70, 0, 4],
-
-        "favoredReligion": "Tengriism",
-		"uniqueName": "Scourge of God",
-		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
-		"cities": ["Attila's Court"],
-        "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
 	{
 		"name": "The Netherlands",
