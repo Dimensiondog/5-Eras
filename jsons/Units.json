@@ -11,6 +11,39 @@
 		"cost": 70
 	},
 	{
+		"name": "Caravan",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredResource": "Trade Route",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence",
+			"[-90]% Gold from Great Merchant trade missions", "Uncapturable", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Cargo Ship",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"requiredResource": "Trade Route",
+		"cost": 70,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", 
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence",
+			"[-90]% Gold from Great Merchant trade missions",
+            "Uncapturable", "Automation is a primary action"]
+	},
+	{
+		"name": "Envoy",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredResource": "Paper",
+		"cost": 70,
+		"requiredTech": "Diplomacy",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [20] Influence",
+			"[-100]% Gold from Great Merchant trade missions",
+            "Uncapturable", "Automation is a primary action"]
+	},
+	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
