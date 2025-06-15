@@ -92,6 +92,12 @@
 		"uniques": ["Cannot be traded","Doesn't generate naturally","Excluded from map editor"],
 	},
 	{
+		"name": "Paper",
+		"revealedBy": "Diplomacy",
+		"resourceType": "Strategic",
+		"uniques": ["Doesn't generate naturally","Excluded from map editor"],
+	},
+	{
 		"name": "Horses",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
