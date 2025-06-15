@@ -1,27 +1,12 @@
 [
     // Source: the fandom, so take these with a grain of salt
     // I also did some testing in the official version, but by far not all
-
-    {
-        "name": "Ancient era",
-        "researchAgreementCost": 150,
-        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
-        "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Spearman",
-        "settlerPopulation": 1,
-        "baseUnitBuyCost": 200,
-        "embarkDefense": 3,
-        "startPercent": 0,
-        "citySound": "cityAncient",
-        "iconRGB": [255, 87, 35]
-    },
     {
         "name": "Classical era",
         "researchAgreementCost": 150,
-        "startingSettlerCount": 1,
-        "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 2,
+        "startingSettlerCount": 2,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 3,
         "startingMilitaryUnit": "Spearman",
         "startingGold": 10,
         "startingCulture": 100,
