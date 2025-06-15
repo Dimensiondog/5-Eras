@@ -13,7 +13,7 @@
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 4,
-        "startPercent": 10,
+        "startPercent": 0,
         "citySound": "cityClassical",
         "iconRGB": [233, 31, 99]
     },
