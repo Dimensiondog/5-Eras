@@ -1,7 +1,7 @@
 [
     {
         "name": "Tradition",
-        "era": "Ancient era",
+        "era": "Classical era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -71,7 +71,7 @@
     },
     {
         "name": "Liberty",
-        "era": "Ancient era",
+        "era": "Classical era",
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
@@ -197,7 +197,7 @@
     },
     {
         "name": "Honor",
-        "era": "Ancient era",
+        "era": "Classical era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
