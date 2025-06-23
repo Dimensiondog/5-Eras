@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tradition",
+        "name": "Monarchy",
         "era": "Classical era",
         "priorities": {
             "Neutral": 5,
@@ -10,8 +10,7 @@
             "Scientific": 5
         },
         "uniques": [
-            "[+3 Culture] [in capital]",
-            "[-25]% Culture cost of natural border growth [in all cities]"
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
         ],
         "policies": [
             {
@@ -24,15 +23,7 @@
                 "column": 1
             },
             {
-                "name": "Legalism",
-                "uniques": [
-                    "Provides the cheapest [Culture] building in your first [4] cities for free"
-                ],
-                "row": 1,
-                "column": 3
-            },
-            {
-                "name": "Oligarchy",
+                "name": "Royal Guard",
                 "uniques": [
                     "Units in cities cost no Maintenance",
                     "[+50]% Strength for cities <with a garrison> <when attacking>",
@@ -47,21 +38,80 @@
                     "[+10]% growth [in capital]",
                     "[+2 Food] [in capital]"
                 ],
-                "requires": ["Legalism"],
+                "requires": ["Aristocracy"],
                 "row": 2,
                 "column": 2
             },
             {
-                "name": "Monarchy",
+                "name": "Tradition",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[+1 Faith, +2 Culture] per [5] population [in capital]"
                 ],
-                "requires": ["Legalism"],
+                "requires": ["Aristocracy"],
                 "row": 2,
                 "column": 4
             },
             {
-                "name": "Tradition Complete",
+                "name": "Monarchy Complete",
+                "uniques": [
+                    "[+25]% Golden Age length",
+		    "Empire enters golden age"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dynasticism",
+        "era": "Classical era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]",
+            "[-25]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Filial Piety",
+                "uniques": [
+                    "[+50]% Production when constructing [Shrine] buildings [in all cities]",
+                    "[+1 Happiness] from all [Shrine] buildings"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Legalism",
+                "uniques": [
+                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Mandate Of Heaven",
+                "uniques": ["[100]% of excess happiness converted to [Culture]"],
+                "requires": ["Legalism","Filial Piety"],
+		"row": 2,
+                "column": 2
+            },
+            {
+                "name": "Fengjian",
+                "uniques": [
+                    "[+1 Production] [in all cities connected to capital]",
+                    "[+1 Food, +1 Culture] [in all cities with a garrison]",
+
+                ],
+                "requires": ["Mandate Of Heaven"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Dynasticism Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
                     "Provides a [Aqueduct] in your first [4] cities for free"
@@ -307,6 +357,15 @@
                 "row": 2,
                 "column": 2
             },
+	{
+                "name": "Scourge of God",
+                "uniques": [
+                    "Receive triple Gold from Barbarian encampments and pillaging Cities"
+                ],
+                "requires": ["Nomad Warriors"],
+                "row": 3,
+                "column": 2
+            },
             {
                 "name": "Horde Complete",
                 "uniques": [
@@ -342,12 +401,6 @@
                 "column": 2
             },
             {
-                "name": "Mandate Of Heaven",
-                "uniques": ["[50]% of excess happiness converted to [Culture]"],
-                "row": 1,
-                "column": 5
-            },
-            {
                 "name": "Reformation",
                 "uniques": [
                     "[+33]% [Culture] [in all cities with a world wonder]",
@@ -360,7 +413,7 @@
             {
                 "name": "Free Religion",
                 "uniques": ["[-10]% Culture cost of adopting new Policies"],
-                "requires": ["Mandate Of Heaven", "Reformation"],
+                "requires": ["Reformation"],
                 "row": 3,
                 "column": 4
             },
